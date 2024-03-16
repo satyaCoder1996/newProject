@@ -1,0 +1,1284 @@
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+        <title>SHOPKART</title>
+        <style>
+            html{
+                width:100%;
+            }
+            body{
+                margin: 0;
+                background-color: #ddd;
+                margin:auto;
+                justify-items: center;
+                align-items: center;
+            }
+            .top{
+                position: fixed;
+                height:80px;
+                width: 1330px;
+                background-color: white;
+                margin-top: -10px;          
+            }
+            .searchbox{
+                height: 50px;
+                width: 650px;
+                margin-left: 230px;
+                margin-top: -45px;
+            }
+            .top2{
+                height: 35px;
+                width: 70px;
+                margin-left: 850px;
+                margin-top: -55px;
+                padding-top: 15px;
+                transition: 0.6s;
+            }
+            .top2:hover{
+                transform: scale(1.15);
+            }
+            .top3{
+                height: 35px;
+                width: 80px;
+                margin-left:950px;
+                margin-top: -53px;
+                padding-top: 19px;
+                transition: 0.6s;
+            }
+            .top3:hover{
+                transform: scale(1.15);
+            }
+            .top4{
+                height: 35px;
+                width: 180px;
+                margin-left: 1060px;
+                margin-top: -53px;
+                padding-top: 19px;
+                transition: 0.6s;
+            }
+            .top4:hover{
+                transform: scale(1.15);
+            }
+            .top5{
+                height: 35px;
+                width: 100px;
+                margin-left: 1300px;
+                margin-top: -53px;
+                padding-top: 19px;
+                transition: 0.6s;
+            }
+            .top5:hover{
+                transform: scale(1.15);
+            }
+            .second{
+                height:100px;
+                width: 1330px;
+                background-color: white;
+                margin-top: 0px;
+                padding-top: 100px;
+                margin-left: 0px;
+            }
+            .second1{
+                padding: 0px;
+                margin: 0px;
+                overflow: hidden;
+            }
+            .second2{
+                padding: 0px;
+                float: left;
+                list-style-type: none;
+                margin-left: 50px;
+                font-size:18px;
+                margin-top: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .second2:hover{
+                transform: scale(1.06);
+            }
+            .third{
+                height: 200px;
+                width: 1330px;
+                background-color: white;
+                margin-top:20px;
+            }
+            .third1{
+                height: 200px;
+                width: 1330px;
+            }
+            .fourth{
+                margin-top: 15px;
+            }
+            .fifth{
+                height: 325px;
+                width: 1105px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .fifth0{
+                padding-top:15px;
+                padding-left: 20px;
+                height: 20px;
+                width: 150px;
+                margin-top: 10px;
+                font-size:22px;
+            }
+            .fifth0:hover{
+                transform: scale(1.03);
+            }
+            .fifth1{
+                padding: 0px;
+                margin: 0px;
+                margin-top: -15px;
+            }
+            .fifth2{
+                padding: 0px;
+                margin: 0px;
+                overflow: hidden;
+                float: left;
+                margin-top: 30px;
+                width: 170px;
+                border: solid 1px #ddd;
+                margin-left: 10px;
+            }
+            .fifth2:hover{
+                transform: scale(1.15);
+            }
+            .sixth{
+                height: 325px;
+                width: 205px;
+                margin-left:1120px;
+                margin-top: -325px;
+                background-color:white;
+            }
+            .sixth1:hover{
+                transform: scale(1.06);
+            }
+            .seventh{
+                height: 300px;
+                width: 1325px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .seventh1{
+                height: 300px;
+                width: 430px;
+                margin-left: 6px;
+            }
+            .seventh1:hover{
+                transform: scale(1.03);
+            }
+            .eighth{
+                height: 370px;
+                width: 1325px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .eighth1{
+                height: 10px;
+                width: 100px;
+                padding-top: 15px;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            .eighth2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            .eighth3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 12px;
+                height: 310px;
+                width: 200px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+            }
+            .eighth301{
+                height: 245px;
+                width: 190px;
+                margin-top: 10px;
+            }
+            .eighth3:hover{
+                transform: scale(1.03);
+            }
+            .nineth{
+                height: 300px;
+                width: 1325px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .nineth1{
+                height: 300px;
+                width: 430px;
+                margin-left: 6px;
+            }
+            .nineth1:hover{
+                transform: scale(1.03);
+            }
+            .tenth{
+                width: 1325px;
+                background-color: aliceblue;
+                margin-top: 15px;
+            }
+            .tenth1{
+                padding: 20px;
+                height: 20px;
+                width: 150px;
+                font-size: 20px;
+            }
+            .tenth2{
+                height: 310px;
+                width: 415px;
+                margin-left: 17px;
+            }
+            .tenth2:hover{
+                transform:scale(1.03)
+            }
+            .eleventh{
+                height:305px;
+                width: 1325px;
+                background-color: white;
+                margin-top: 15px;
+            }
+            .eleventh1{
+                height:290px;
+                width: 430px;
+                margin-left: 6px;
+                margin-top: 7px;
+            }
+            .eleventh1:hover{
+                transform: scale(1.03);
+            }
+            .twelveth{
+                height: 390px;
+                width: 1325px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .twelveth1{
+                height: 10px;
+                width: 250px;
+                padding: 20px;
+                font-size: 20px;
+            }
+            .twelveth2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            .twelveth3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 12px;
+                height: 310px;
+                width: 200px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+            }
+            .twelveth301{
+                height: 245px;
+                width: 190px;
+                margin-top: 10px;
+            }
+            .twelveth3:hover{
+                transform: scale(1.03);
+            }
+            .thirteenth{
+                height: 390px;
+                width: 1325px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .thirteenth1{
+                height: 10px;
+                width: 250px;
+                padding: 20px;
+                font-size: 20px;
+            }
+            .thirteenth2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            .thirteenth3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 12px;
+                height: 310px;
+                width: 200px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+            }
+            .thirteenth301{
+                height: 245px;
+                width: 190px;
+                margin-top: 10px;
+            }
+            .thirteenth3:hover{
+                transform: scale(1.03);
+            }
+            .fourteenth{
+                height:620px;
+                width: 450px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .fourteenth1{
+                height: 10px;
+                width: 250px;
+                padding: 15px;
+                font-size: 20px;
+            }
+            .fourteenth2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left:0px;
+            }
+            .fourteenth3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 09px;
+                height: 270px;
+                width: 210px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+                margin-top:-08px;
+            }
+            .fourteenth301{
+                height: 210px;
+                width: 160px;
+                margin-top: 10px;
+            }
+            .fourteenth3:hover{
+                transform: scale(1.03);
+            }
+            .fiveteenth{
+                height:620px;
+                width: 450px;
+                margin-top: -620px;
+                margin-left:458px;
+                background-color: white;
+            }
+            .fiveteenth1{
+                height: 10px;
+                width: 350px;
+                padding: 15px;
+                font-size: 20px;
+            }
+            .fiveteenth2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left:0px;
+            }
+            .fiveteenth3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 09px;
+                height: 270px;
+                width: 210px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+            }
+            .fiveteenth301{
+                height: 210px;
+                width: 160px;
+                margin-top: 10px;
+            }
+            .fiveteenth3:hover{
+                transform: scale(1.03);
+            }
+            .sixteenth{
+                height:620px;
+                width:407px;
+                margin-top: 15px;
+                margin-left:918px;
+                margin-top: -620px;
+            }
+            .sixteenth1{
+                height:620px;
+                width: 407px;
+            }
+            .sixteenth1:hover{
+                transform: scale(1.01);
+            }
+            .seventeenth{
+                height:305px;
+                width: 1325px;
+                background-color: white;
+                margin-top: 15px;
+            }
+            .seventeenth1{
+                height:290px;
+                width: 430px;
+                margin-left: 6px;
+                margin-top: 7px;
+            }
+            .seventeenth1:hover{
+                transform: scale(1.03);
+            }
+            .eighteenth{
+                width: 1325px;
+                background-color: aliceblue;
+                margin-top: 15px;
+            }
+            .eighteenth1{
+                padding: 20px;
+                height: 20px;
+                width: 150px;
+                font-size: 20px;
+            }
+            .eighteenth2{
+                height: 310px;
+                width: 415px;
+                margin-left: 17px;
+            }
+            .eighteenth2:hover{
+                transform:scale(1.03)
+            }
+            .nineteenth{
+                height:305px;
+                width: 1325px;
+                background-color: white;
+                margin-top: 15px;
+            }
+            .nineteenth1{
+                height:290px;
+                width: 430px;
+                margin-left: 6px;
+                margin-top: 7px;
+            }
+            .nineteenth1:hover{
+                transform: scale(1.03);
+            }
+            .twentieth{
+                height:150px;
+                width: 1325px;
+                background-color: white;
+                margin-top: 15px;
+            }
+            .twentieth1{
+                height:150px;
+                width: 328px;
+                margin-left:0px;
+                margin-top:0px;
+            }
+            .twentieth1:hover{
+                transform: scale(1.03);
+            }
+            .twentyfirst{
+                height:620px;
+                width: 450px;
+                margin-top: 15px;
+                background-color: white;
+            }
+            .twentyfirst1{
+                height: 10px;
+                width: 250px;
+                padding: 15px;
+                font-size: 20px;
+            }
+            .twentyfirst2{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 20px;
+                margin-left:0px;
+            }
+            .twentyfirst3{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 09px;
+                height: 270px;
+                width: 210px;
+                list-style-type: none;
+                border: 1px solid #ddd;
+                float: left;
+                margin-top:-08px;
+            }
+            .twentyfirst301{
+                height: 210px;
+                width: 160px;
+                margin-top: 10px;
+            }
+            .twentyfirst3:hover{
+                transform: scale(1.03);
+            }
+            .twentsecond{
+                height:620px;
+                width:750px;
+                margin-top: 15px;
+                margin-left:470px;
+                margin-top: -620px;
+            }
+            .twentsecond1{
+                height:620px;
+                width: 425px;
+            }
+            .twentsecond1:hover{
+                transform: scale(1.01);
+            }
+            .site{
+                height: 400px;
+                width: 1325px;
+                background-color: black;
+                position: absolute;
+            }
+            .about{
+                height: 180px;
+                width: 205px;
+                margin-top: 70px;
+                margin-left: 28px;
+                font-size: 15px;
+            }
+            .about0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .about1{
+                list-style-type: none;
+            }
+            .about2:hover{
+                text-decoration: underline ;
+            }
+            .about2{
+                
+                color: white;
+            }
+            .help{
+                height: 180px;
+                width: 205px;
+                margin-top:-180px;
+                margin-left: 210px;
+                font-size: 15px;
+            }
+            .help0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .help1{
+                list-style-type: none;
+            }
+            .help2:hover{
+                text-decoration: underline ;
+            }
+            .help2{
+                color: white;
+            }
+            .policy{
+                font-size: 15px;
+                height: 180px;
+                width: 205px;
+                margin-top:-180px;
+                margin-left: 385px;
+            }
+            .policy0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .policy1{
+                list-style-type: none;
+            }
+            .policy2:hover{
+                text-decoration: underline ;
+            }
+            .policy2{
+                color: white;
+            }
+            .social{
+                font-size: 15px;
+                height: 190px;
+                width: 140px;
+                margin-top:-180px;
+                margin-left: 575px;
+                border-right: 1px solid white;
+            }
+            .social0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .social1{
+                list-style-type: none;
+            }
+            .social2:hover{
+                text-decoration: underline ;
+            }
+            .social2{
+                color: white;
+            }
+            .mail{
+                height: 190px;
+                width: 350px;
+                margin-top:-195px;
+                margin-left: 700px;
+                font-size: 15px;
+            }
+            .mail0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .mail1{
+                list-style-type: none;
+                color:white;
+            }
+            .address{
+                height: 190px;
+                width: 350px;
+                margin-top:-195px;
+                margin-left:1000px;
+                font-size: 15px;
+            }
+            .address0{
+                margin-left: 43px;
+                color:aliceblue;
+            }
+            .address1{
+                list-style-type: none;
+                color:white;
+            }
+            .address2{
+                color: blue;
+                margin-left: 15px;
+            }
+            .address2:hover{
+                text-decoration: underline;
+            }
+            .bottom{
+                margin-left: 65px;
+                margin-top: 50px;
+            }
+            .bottom2{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="top1">
+                <a href=""><img src="flipkart_log.svg" 
+                    style="margin-top:22px;margin-left: 35px;"></a> 
+            </div>
+            <div class="searchbox">
+                <i class="fa-solid fa-magnifying-glass" 
+                   class="top201" 
+                   style="height:25px;width:20px;margin-left:10px;
+                   padding-left:20px;border:none;margin-top:5px;
+                   position:absolute;padding-top:8px;"></i>
+                <input type="search" placeholder="Search for Products,Brand and More"
+                   style="height: 35px;width: 550px;
+                   border: 1px solid #ddd;margin-left:10px;
+                   margin-top:5px;padding-left: 48px;
+                   border-radius: 15px;">
+            </div>
+            <div class="top2">
+               <a href="login_page.html" style="text-decoration: none; font-size: 20px;color: black;">
+               <i class="fa-solid fa-user"></i>Login</a>
+            </div>
+            <div class="top3">
+                <a href="" style="text-decoration: none; font-size: 20px;color: black;">
+                <i class="fa-solid fa-cart-shopping"></i>Cart</a>
+            </div>
+            <div class="top4">
+                <a href="" style="text-decoration: none; font-size: 20px;color: black;">
+                    <i class="fa-solid fa-store"></i>Become a Seller</a>
+            </div>
+            <div class="top5">
+                <a href="" style="text-decoration: none; font-size: 20px;color: black;">
+                <i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </div>
+        </div>
+        <div class="second">
+            <center>
+            <ol class="second1">
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="mobile&tablet.jfif"
+                         style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Mobile & Tablet</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="led.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">TV & Electronics</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="appliances.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Appliances</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="Fashion.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Fashions</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="beauty.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Beauty</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="home & kitchen.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Home & Kitchens</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="furnitures.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Furnitures</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="flights.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Flights</a></li>
+                </ol>
+                <ol class="second2">
+                    <li class="second201"><a href="">
+                        <img src="grocery.jfif"
+                        style="height:55px; width:55px;">
+                    </a></li>
+                    <li class="second201"><a href="">Grocery</a></li>
+                </ol>
+            </ol></center>
+        </div>
+        <div class="third">
+            <marquee>
+                <a href=""><img src="slider01.webp" class="third1"></a>
+                <a href=""><img src="slider02.webp" class="third1"></a>
+                <a href=""><img src="slider03.webp" class="third1"></a>
+                <a href=""><img src="slider04.webp" class="third1"></a>
+                <a href=""><img src="slider05.webp" class="third1"></a>
+                <a href=""><img src="slider06.webp" class="third1"></a>
+            </marquee>
+        </div>
+        <div class="fourth">
+            <a href="" class="fourth1"><img src="bank.webp" style="height: 150px;width: 1330px;"></a>
+        </div>
+        <div class="fifth">
+            <div class="fifth0">
+                <label>
+                  <a href=""><b>Best Mobile</b></a>
+                </label>
+            </div>
+            <center>
+            <ol class="fifth1">
+                <ol class="fifth2">
+                    <li><a href=""><img src="vivo.webp" 
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Vivo T2x 5G
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+                <ol class="fifth2">
+                    <li><a href=""><img src="oppo.webp"
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Oppo Reno 10
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+                <ol class="fifth2">
+                    <li><a href=""><img src="samsung.webp"
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Sasmung S21 SF 2023 5G
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+                <ol class="fifth2">
+                    <li><a href=""><img src="moto.webp"
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Motorola Edge 40
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+                <ol class="fifth2">
+                    <li><a href=""><img src="pixel.webp"
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Google Pixel 7
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+                <ol class="fifth2">
+                    <li><a href=""><img src="POCO.webp"
+                        style="height: 200px;width: 160px;margin-left:0px;"></a></li><br>
+                    <li><a href="">Poco X5 Pro 5G
+                        <br><b>incl of offer</b>
+                    </a></li>
+                </ol>
+            </ol></center>
+        </div>
+        <div class="sixth">
+            <a href=""><img src="lg_ad.webp" style="height:320px;width: 200px;" class="sixth1"></a>
+        </div>
+        <div class="seventh">
+            <tr>
+                <a href=""><img src="sam_day_sale.webp" class="seventh1"></a>
+                <a href=""><img src="mar_dis.webp" class="seventh1"></a>
+                <a href=""><img src="par_ext.webp" class="seventh1"></a>
+            </tr>
+        </div>
+        <div class="eighth">
+            <div class="eighth1">
+                <label><a href="" class="eighth101"><b>Top Deals</b></a></label>
+            </div>
+            <center>
+                <ol class="eighth2">
+                    <ol class="eighth3">
+                       <li><a href=""><img src="hrx.webp" class="eighth301"></a></li>
+                       <li><a href="">HRF, FILA & MORE <br><b>Under 899/-RS</b></a></li>
+                    </ol>
+                    <ol class="eighth3">
+                        <li><a href=""><img src="jewellery.webp" class="eighth301"></a></li>
+                        <li><a href="">Earing, Jewellery Sets.... <br><b>Flat 70% Off</b></a></li>
+                     </ol>
+                     <ol class="eighth3">
+                        <li><a href=""><img src="kurta.webp" class="eighth301"></a></li>
+                        <li><a href="">Kurta Sets & More <br><b>Min. 70% Off</b></a></li>
+                     </ol>
+                     <ol class="eighth3">
+                        <li><a href=""><img src="us_polo.webp" class="eighth301"></a></li>
+                        <li><a href="">U.S. Polo Peter England... <br><b>Min. 70% Off</b></a></li>
+                     </ol>
+                     <ol class="eighth3">
+                        <li><a href=""><img src="pepe_jeans.webp" class="eighth301"></a></li>
+                        <li><a href="">Pepe Jeans, Raymond...<br><b>65-90% Off</b></a></li>
+                     </ol>
+                     <ol class="eighth3">
+                        <li><a href=""><img src="fastrack.webp" class="eighth301"></a></li>
+                        <li><a href="">Fastrack, Ray-Ban, IDDE....<br><b>30-80% Off</b></a></li>
+                     </ol>
+                </ol>
+            </center>
+        </div>
+        <div class="nineth">
+            <tr>
+                <a href=""><img src="day_vivo.webp" class="nineth1"></a>
+                <a href=""><img src="cooker.webp" class="nineth1"></a>
+                <a href=""><img src="international.webp" class="nineth1"></a>
+            </tr>
+        </div>
+        <div class="tenth">
+            <div class="tenth1">
+                <label><a href=""><b>Featured Brand</b></a></label>
+            </div>
+            <tr>
+                <a href=""><img src="boult.webp" class="tenth2"></a>
+                <a href=""><img src="cp_plus.webp" class="tenth2"></a>
+                <a href=""><img src="fas_watch.webp" class="tenth2"></a>
+            </tr>
+        </div>
+        <div class="eleventh">
+            <tr>
+                <a href=""><img src="day_vivo.webp" class="eleventh1"></a>
+                <a href=""><img src="cooker.webp" class="eleventh1"></a>
+                <a href=""><img src="international.webp" class="eleventh1"></a>
+            </tr>
+        </div>
+        <div class="twelveth">
+            <div class="twelveth1">
+                <label><a href="" class="twelveth101"><b>Top Deals on Electronics</b></a></label>
+            </div>
+            <center>
+                <ol class="twelveth2">
+                    <ol class="twelveth3">
+                       <li><a href=""><img src="earphone.webp" class="twelveth301"></a></li>
+                       <li><a href="">Truewireless Earphone <br><b>From 599/-RS</b></a></li>
+                    </ol>
+                    <ol class="twelveth3">
+                        <li><a href=""><img src="gammer.webp" class="twelveth301"></a></li>
+                        <li><a href="">Unleash the Gammer!<br><b>From 29,990*/-RS</b></a></li>
+                     </ol>
+                     <ol class="twelveth3">
+                        <li><a href=""><img src="cover.webp" class="twelveth301"></a></li>
+                        <li><a href="">Premium Case & Covers<br><b>Min. 50% Off</b></a></li>
+                     </ol>
+                     <ol class="twelveth3">
+                        <li><a href=""><img src="powerbank.webp" class="twelveth301"></a></li>
+                        <li><a href="">Best Deals on Powerbanks<br><b>From 379/-RS</b></a></li>
+                     </ol>
+                     <ol class="twelveth3">
+                        <li><a href=""><img src="charger.webp" class="twelveth301"></a></li>
+                        <li><a href="">Mobile Chargers are Here<br><b>From 99/-RS</b></a></li>
+                     </ol>
+                     <ol class="twelveth3">
+                        <li><a href=""><img src="toner.webp" class="twelveth301"></a></li>
+                        <li><a href="">Printer Inks and Toners<br><b>Up to 10% Off</b></a></li>
+                     </ol>
+                </ol>
+            </center>
+        </div>
+        <div class="thirteenth">
+            <div class="thirteenth1">
+                <label><a href="" class="thirteenth101"><b>Fashion Best Sellers</b></a></label>
+            </div>
+            <center>
+                <ol class="thirteenth2">
+                    <ol class="thirteenth3">
+                       <li><a href=""><img src="nike_shoe.webp" class="thirteenth301"></a></li>
+                       <li><a href="">Nike<br><b>Up To 40% Off</b></a></li>
+                    </ol>
+                    <ol class="thirteenth3">
+                        <li><a href=""><img src="shandle.webp" class="thirteenth301"></a></li>
+                        <li><a href="">Reebok, Campus & More<br><b>From 599/-RS</b></a></li>
+                     </ol>
+                     <ol class="thirteenth3">
+                        <li><a href=""><img src="jackat.webp" class="thirteenth301"></a></li>
+                        <li><a href="">Jackets, Sweatshirts & More<br><b>Min. 60% Off</b></a></li>
+                     </ol>
+                     <ol class="thirteenth3">
+                        <li><a href=""><img src="wrong gogle.webp" class="thirteenth301"></a></li>
+                        <li><a href="">Fastrack, Wrong & More<br><b>20-70% Off</b></a></li>
+                     </ol>
+                     <ol class="thirteenth3">
+                        <li><a href=""><img src="kurta2.webp" class="thirteenth301"></a></li>
+                        <li><a href="">Kurta, Sets & More<br><b>60-80% Off</b></a></li>
+                     </ol>
+                     <ol class="thirteenth3">
+                        <li><a href=""><img src="sarees.webp" class="thirteenth301"></a></li>
+                        <li><a href="">Dailywear Sarees!<br><b>Min. 80% Off</b></a></li>
+                     </ol>
+                </ol>
+            </center>
+        </div>
+        <div class="fourteenth">
+            <div class="fourteenth1">
+                <label><a href="" class="fourteenth101"><b>Gifting Collections For You</b></a></label>
+            </div>
+            <center>
+                <ol class="fourteenth2">
+                    <ol class="fourteenth3">
+                       <li><a href=""><img src="t_shirt.webp" class="fourteenth301"></a></li>
+                       <li><a href="">Men's T-shirts<br><b><font color="green">Special Offer</font></b></a></li>
+                    </ol>
+                    <ol class="fourteenth3">
+                        <li><a href=""><img src="headset.webp" class="fourteenth301"></a></li>
+                        <li><a href="">Headset<br><b><font color="green">Min. 50% Off</font></b></a></li>
+                     </ol>
+                     <ol class="fourteenth3" style="margin-top: 10px;">
+                        <li><a href=""><img src="watch.webp" class="fourteenth301"></a></li>
+                        <li><a href="">Wrist Watches<br><b><font color="green">Min. 90% Off</font></b></a></li>
+                     </ol>
+                     <ol class="fourteenth3" style="margin-top: 10px;">
+                        <li><a href=""><img src="art_jew.webp" class="fourteenth301"></a></li>
+                        <li><a href="">Artificial Jewellery<br><b><font color="green">Min. 70% Off</font></b></a></li>
+                     </ol>
+                </ol>
+            </center>
+        </div>
+        <div class="fiveteenth">
+            <div class="fiveteenth1">
+                <label><a href="" class="fiveteenth101"><b>Top Picks For Kitchen Makeover</b></a></label>
+            </div>
+            <center>
+                <ol class="fiveteenth2">
+                    <ol class="fiveteenth3" style="margin-top:-270px;">
+                       <li><a href=""><img src="lighters.webp" class="fiveteenth301"></a></li>
+                       <li><a href="">Gas Lighters<br><b><font color="green">Min. 50% Off</font></b></a></li>
+                    </ol>
+                    <ol class="fiveteenth3" style="margin-top:-270px;">
+                        <li><a href=""><img src="condiments.webp" class="fiveteenth301"></a></li>
+                        <li><a href="">Condiment Sets<br><b><font color="green">Min. 50% Off</font></b></a></li>
+                     </ol>
+                     <ol class="fiveteenth3" style="margin-top:10px;">
+                        <li><a href=""><img src="bottles.webp" class="fiveteenth301"></a></li>
+                        <li><a href="">Water Bottles & Flasks<br><b><font color="green">Min.50% Off</font></b></a></li>
+                     </ol>
+                     <ol class="fiveteenth3" style="margin-top:10px;">
+                        <li><a href=""><img src="mugs.webp" class="fiveteenth301"></a></li>
+                        <li><a href="">Mugs<br><b><font color="green">Special Offer</font></b></a></li>
+                     </ol>
+            </center>
+        </div>
+        <div class="sixteenth">
+            <a href=""><img src="shop_now.jfif" class="sixteenth1"></a>
+        </div>
+        <div class="seventeenth">
+            <tr>
+                <a href=""><img src="washing.webp" class="seventeenth1"></a>
+                <a href=""><img src="relwas.webp" class="seventeenth1"></a>
+                <a href=""><img src="mattre.webp" class="seventeenth1"></a>
+            </tr>
+        </div>
+        <div class="eighteenth">
+            <div class="eighteenth1">
+                <label><a href=""><b>Featured Brand</b></a></label>
+            </div>
+            <tr>
+                <a href=""><img src="vip.webp" class="eighteenth2"></a>
+                <a href=""><img src="phillips.webp" class="eighteenth2"></a>
+                <a href=""><img src="boat.webp" class="eighteenth2"></a>
+            </tr>
+        </div>
+        <div class="nineteenth">
+            <tr>
+                <a href=""><img src="green.webp" class="nineteenth1"></a>
+                <a href=""><img src="hind.webp" class="nineteenth1"></a>
+                <a href=""><img src="showp.webp" class="nineteenth1"></a>
+            </tr>
+        </div>
+        <div class="twentieth">
+            <a href=""><img src="debit1.jfif" class="twentieth1"></a>
+            <a href=""><img src="gift1.jfif" class="twentieth1"></a>
+            <a href=""><img src="debit2.jfif" class="twentieth1"></a>
+            <a href=""><img src="gift2.jfif" class="twentieth1"></a>
+        </div>
+        <div class="twentyfirst">
+            <div class="twentyfirst1">
+                <label><a href="" class="twentyfirst101"><b>Women's Favourite</b></a></label>
+            </div>
+            <center>
+                <ol class="twentyfirst2">
+                    <ol class="twentyfirst3">
+                       <li><a href=""><img src="t_shirt.webp" class="twentyfirst301"></a></li>
+                       <li><a href="">Men's T-shirts<br><b><font color="green">Special Offer</font></b></a></li>
+                    </ol>
+                    <ol class="twentyfirst3">
+                        <li><a href=""><img src="t_shirt.webp" class="twentyfirst301"></a></li>
+                        <li><a href="">Men's T-shirts<br><b><font color="green">Special Offer</font></b></a></li>
+                     </ol>
+                     <ol class="twentyfirst3">
+                        <li><a href=""><img src="t_shirt.webp" class="twentyfirst301"></a></li>
+                        <li><a href="">Men's T-shirts<br><b><font color="green">Special Offer</font></b></a></li>
+                     </ol>
+                     <ol class="twentyfirst3">
+                        <li><a href=""><img src="t_shirt.webp" class="twentyfirst301"></a></li>
+                        <li><a href="">Men's T-shirts<br><b><font color="green">Special Offer</font></b></a></li>
+                     </ol>
+                </ol>
+            </center>
+        </div>
+        <div class="twentsecond">
+            <tr>
+                <td>
+                    <a href=""><img src="vivo_img.jfif" class="twentsecond1"></a>
+                    <a href=""><img src="vivo_imgs.jfif" class="twentsecond1" 
+                        style="margin-top: -620px;margin-left: 430px;"></a>
+                </td>
+            </tr>
+        </div>
+        <div style="width: 1325px; background-color: aliceblue;margin-top:100px;height: 1250px;">
+            <div style="height: 15px;
+             width: 300px;padding-top:50px;margin-left:15px;">
+              <label><b>Top Story:Brand Directory</b></label>
+             </div>
+             <div style="width: 1325px;margin-left:10px;margin-top: 30px;">
+                MOST SEARCHED FOR ON FLIPKART:<a href="">  &nbsp;&nbsp;&nbsp; iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max |  Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>
+                  iPhone 15 Pro Max |  Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>
+                  iPhone 15 Pro Max |  Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>
+                  iPhone 15 Pro Max |  Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>
+                  iPhone 15 Pro Max |  Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  <br><br>iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Max | 
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                  iPhone 15 Pro Max | Vivo x 100 | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | Vivo T2x | Oppo Reno |
+                </a>
+            </div>
+        </div>
+        <div class="site">
+            <div class="about">
+                <label class="about0">ABOUT</label>
+                <ol class="about1">
+                    <li><a href="" class="about2">Contact Us</a></li>
+                    <li><a href="" class="about2">About Us</a></li>
+                    <li><a href="" class="about2">Careers</a></li>
+                    <li><a href="" class="about2">Flipkart stories</a></li>
+                    <li><a href="" class="about2">Peers</a></li>
+                    <li><a href="" class="about2">Flipkart Wholesales</a></li>
+                    <li><a href="" class="about2">Cleartip</a></li>
+                    <li><a href="" class="about2">Corporate Information</a></li>
+                </ol>
+            </div>
+            <div class="help">
+                <label class="help0">HELP</label>
+                <ol class="help1">
+                    <li><a href="" class="help2">Payments</a></li>
+                    <li><a href="" class="help2">Shipping</a></li>
+                    <li><a href="" class="help2">Cancellation & Returns</a></li>
+                    <li><a href="" class="help2">FAQ</a></li>
+                    <li><a href="" class="help2">Report Infringement</a></li>
+                </ol>
+            </div>
+            <div class="policy">
+                <label class="policy0">CONSUMER POLICY</label>
+                <ol class="policy1">
+                    <li><a href="" class="policy2">Cancellation &Returns</a></li>
+                    <li><a href="" class="policy2">Terms Of Use </a></li>
+                    <li><a href="" class="policy2">Security</a></li>
+                    <li><a href="" class="policy2">Privacy</a></li>
+                    <li><a href="" class="policy2">Sitemap</a></li>
+                    <li><a href="" class="policy2">Grievance Redressal</a></li>
+                    <li><a href="" class="policy2">ERP Compliance</a></li>
+                </ol>
+            </div>
+            <div class="social">
+                <label class="social0">SOCIAL</label>
+                <ol class="social1">
+                    <li><a href="" class="social2">Facebook</a></li>
+                    <li><a href="" class="social2">Twitter</a></li>
+                    <li><a href="" class="social2">You Tube</a></li>
+                </ol>
+            </div>
+            <div class="mail">
+                <label class="mail0">MAIL US:</label>
+                <ol class="mail1">
+                    <li>Flipkart Internet Private Limited<br>
+                        Bulidings Alyssa,Bengola &<br>
+                        Outer Ring Road, Devarabeesanahalli Village,<br>
+                        Bengaluru,560103,<br>
+                        Karnataka, India
+                    </li>
+                </ol>
+            </div>
+            <div class="address">
+                <label class="address0">Registered Office Address:</label>
+                <ol class="address1">
+                    <li>Flipkart Internet Private Limited,<br>
+                        Building Alyssa, Begonia & <br>
+                        Outer Ring Road, Devarabesanahalli Village,<br>
+                        Bengaluru, 560103,<br>
+                        CIN: U51109KA2012PTC066107<br>
+                    </li><br>
+                    <li>Telephone:<a href="" class="address2">044-45614700</a></li>
+                </ol>
+            </div>
+            <br><br><hr>
+            <div class="bottom">
+                <tr>
+                    <td class="bottom2">
+                        <a href="" style="text-decoration: none; font-size:15px;color:white;">
+                        <i class="fa-solid fa-store"></i>Become a Seller</a>
+                    </td>
+                    <td class="bottom2">
+                        <a href="" style="text-decoration: none; font-size:15px;color:white;
+                        margin-left: 50px;">
+                        <i class="fa-regular fa-star"></i>Advertise</a>
+                    </td>
+                    <td class="bottom2">
+                        <a href="" style="text-decoration: none; font-size:15px;color:white;
+                        margin-left: 50px;">
+                        <i class="fa-solid fa-gift"></i>Gift Card</a>
+                    </td>
+                    <td class="bottom2">
+                        <a href="" style="text-decoration: none; font-size:15px;color:white;
+                        margin-left: 50px;">
+                        <i class="fa-regular fa-circle-question"></i>Help Center</a>
+                    </td>
+                    <td class="bottom2">
+                        <a style="text-decoration: none; font-size:15px;color:white;
+                        margin-left: 50px;">
+                        <i class="fa-regular fa-copyright"></i>2007-2024 Flipkart.com</a>
+                    </td>
+                    <td>
+                        <img src="card_b.svg" style="margin-left: 100px;">
+                    </td>
+                </tr>
+            </div>
+        </div>
+    </body>
+</html>
